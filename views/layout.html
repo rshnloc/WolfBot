@@ -14,7 +14,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navButtons" id="navbar-collapse-head">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         <li class="tabTrading"><a href="javascript:;" data-target="strategies">
           <i aria-hidden="true" class="fa fa-gears"></i> {tr:strategiesLive}</a>
         </li>
@@ -42,28 +42,11 @@
         <li class="tabScripts hidden"><a href="javascript:;" data-target="scripts">
           <i aria-hidden="true" class="fa fa-code"></i> {tr:scripts}</a>
         </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{tr:actions} <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="javascript:;" data-target="status">
               <i aria-hidden="true" class="fa fa-info"></i> {tr:status}</a>
-            </li>
-            <li><a target="_blank" href="https://wolfbot.org/">
-              <i aria-hidden="true" class="fa fa-internet-explorer"></i> {tr:visitWebsite}</a>
-            </li>
-            <li><a target="_blank" href="https://wolfbot.org/strategy-docs/">
-              <i aria-hidden="true" class="fa fa-book"></i> {tr:docs}</a>
-            </li>
-            <li><a target="_blank" href="https://forum.wolfbot.org/">
-              <i aria-hidden="true" class="fa fa-question-circle"></i> {tr:support}</a>
-            </li>
-            <li><a target="_blank" href="https://wolfbot.org/affiliate/">
-              <i aria-hidden="true" class="fa fa-money"></i> {tr:affiliate}</a>
-            </li>
-            <li><a target="_blank" href="https://discord.gg/rmHvEuG">
-              <i aria-hidden="true" class="fa fa-comments"></i> {tr:discord}</a>
             </li>
             <li role="separator" class="divider"></li>
             <li><a id="restartBot" href="javascript:;">
@@ -83,10 +66,12 @@
 </nav>
 <!-- /navbarHead -->
 <!-- contentWidget -->
+<div class="container">
 <div class="body container-fluid">
   <div id="messages"></div>
   <div id="content" class="bottom50">
   </div>
+</div>
 </div>
 <!-- /contentWidget -->
 <!-- logs -->
