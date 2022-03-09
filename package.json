@@ -1,5 +1,5 @@
 {
-  "name": "@ekliptor/Sensor",
+  "name": "@ekliptor/WolfBot",
   "version": "0.1.0",
   "description": "Fetches crypto currency data from BitCoin exchanges and Social Media and does trading.",
   "main": "build/app.js",
